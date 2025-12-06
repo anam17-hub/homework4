@@ -8,11 +8,19 @@ Description: Homework 1 learning and creating a CSS file
 */
 
 header {
+  position:sticky;
+  top:0;
   display:flex;
   align-items:center;
   justify-content: space-between;
   width:100%;
   background-color: rgba(78, 212, 236, 0.491);
+  transition:background-color 0.4 easy-in-out;
+  z-index: 1000;
+}
+header.scrolled {
+  background-color: rgba(78, 212, 236, 0.491);
+  opacity: 1.0;
 }
 header h2{
   margin: 0 auto;      /* pushes title to the center */
@@ -199,7 +207,7 @@ td.outputdata {
 
   .iframe-container {
   width:95%;
-  height:20%
+  height:15px;
   border:1px solid black;
 
   }
