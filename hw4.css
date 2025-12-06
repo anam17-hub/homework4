@@ -10,9 +10,6 @@ Description: Homework 1 learning and creating a CSS file
 header {
   position:sticky;
   top:0;
-  display:flex;
-  align-items:center;
-  justify-content: space-between;
   width:100%;
   background-color: rgba(78, 212, 236, 0.491);
   transition:background-color 0.4 easy-in-out;
