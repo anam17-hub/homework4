@@ -472,7 +472,7 @@ if (valid){
     document.getElementById("welcome2").innerHTML = 
     "<a href='#' id = 'new-user'>Not " + firstName + "? Click here to begin a new form.</a>";
 
-    document.getElementById("new-user").addEventListener=("click",function() {
+    document.getElementById("new-user").addEventListener("click",function() {
         inputs.forEach(function(input) {
         setCookie(input.cookieName,"",-1);
     })
