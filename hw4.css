@@ -197,9 +197,10 @@ td.outputdata {
   top:25%;
   right:15px;
   width:25%;
-  height:100%
+  height:100%;
   overflow:hidden;
   box-sizing:border-box;
+  border:none; /*remove the black border*/
   }
 
   .iframe-container {
