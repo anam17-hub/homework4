@@ -200,7 +200,7 @@ td.outputdata {
   height:100%;
   overflow:hidden;
   box-sizing:border-box;
-  border:none; /*remove the black border*/
+  border: 1px solid black;
   }
 
  
