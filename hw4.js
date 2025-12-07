@@ -449,7 +449,7 @@ if (valid){
 
  ]
 
- inputs.forEach(function(input)) {
+ inputs.forEach(function(input) {
     var inputElement= document.getElementById(input.id);
 
     //prefill input fields with value from the cookie 
@@ -468,7 +468,7 @@ if (valid){
  //greet the user with their name + message if the cookie is set 
  var firstName = getCookie("firstName");
  if (firstName !== "") {
-    document.getElementById("welcome1").innerHTML= "Welcome back," +firstName +"! </br>";
+    document.getElementById("welcome1").innerHTML= "Welcome back," +firstName +"! <br>";
     document.getElementById("welcome2").innerHTML = 
     "<a href='#' id = 'new-user'>Not " + firstName + "? Click here to begin a new form.</a>";
 
